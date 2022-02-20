@@ -74,12 +74,15 @@ body{
     width: 40%;
     text-align: center;
 
+
     animation-name: capaAnim1;
     animation-duration: 2s;
 }
 .fotoPerfil img{
     width: 350px;
+    border: 8px solid;
     border-radius: 350px;
+    border-color: rgb(216, 166, 0);
     margin-top: 100px;
 }
 
@@ -140,10 +143,11 @@ body{
     padding-left: 15px;
 }
 .cvPicture{
-    width: 300px;
+    width: 200px;
     float: left;
     margin-top: 0px;
     margin-bottom: 30px;
+    margin-right: 50px;
 }
 
 .caminho{  
