@@ -1,9 +1,8 @@
 html, body{
     margin: 0px;
     padding: 0px;
-    /*
     font-size: 0px;
-    */
+    
 }
 
 body{
@@ -142,6 +141,7 @@ body{
     text-align: justify;
     padding-left: 15px;
 }
+
 .cvPicture{
     width: 200px;
     float: left;
@@ -170,9 +170,10 @@ body{
 
 .socialImg{
     width: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-right: 10px;
 }
+
 
 .miniatura{
     width: 246px;
@@ -182,6 +183,16 @@ body{
     margin-left: 120px;
     margin-bottom: 20px;
     overflow: hidden;
+}
+
+.miniatura:hover{
+    width: 266px;
+    margin-right: 110px;
+    margin-left: 110px;
+    background-size: 100%;
+    
+    transition: 1s;
+
 }
 
 .miniatura a{
@@ -283,7 +294,7 @@ transition: 1s;
     }
 
     .fotoPerfil img{
-        margin-top: 0;
+        margin-top: 2%;
         max-width: 70%;
 
     }
