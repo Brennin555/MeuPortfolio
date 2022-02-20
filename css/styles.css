@@ -1,0 +1,368 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    /*
+    font-size: 0px;
+    */
+}
+
+body{
+    background-color: rgb(12, 12, 12);
+    color: whitesmoke;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 26px;
+}
+
+.menuTopo{
+    background-color: rgb(216, 176, 0);
+    color: rgb(12, 12, 12);
+    height: 50px;
+
+    animation-name: topoAnim;
+    animation-duration: 2s;
+}
+
+.menuTopo ul{  
+    padding-left: 0px;
+    margin-top: 0px;
+    text-align: right;
+    list-style: none;
+}
+.menuTopo li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.menuTopo a{
+    text-decoration: none;
+    color: rgb(245, 245, 220);
+}
+
+.menuTopo a:hover{
+    color: rgb(65, 9, 117);
+}
+
+.menuTopo li.menuIcon{
+    display: none;
+    color: rgb(245, 245, 220);
+}
+
+.menuTopo li.menuIcon:hover{
+    color:rgb(65, 9, 117);;
+    cursor : pointer;
+}
+
+
+.capa{
+    color: rgb(245, 245, 220);
+}
+.capa span{
+    color: rgb(216, 166, 0);
+    display: block;
+}
+.capa div{
+    display: inline-block;
+    height: 650px;
+}
+
+
+.fotoPerfil{
+    width: 40%;
+    text-align: center;
+
+    animation-name: capaAnim1;
+    animation-duration: 2s;
+}
+.fotoPerfil img{
+    width: 350px;
+    border-radius: 350px;
+    margin-top: 100px;
+}
+
+.nomePerfil{
+    vertical-align: top;
+    width: 59%;
+
+    animation-name: capaAnim2;
+    animation-duration: 2s;
+}
+.nomePerfil h1{
+    font-size: 80px;
+    margin-top: 200px;
+    line-height: 60px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.nomePerfil h2{
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+.main{
+    color: rgb(245, 245, 220);
+    font-size: normal;
+    font-weight: 200;
+
+    padding: 80px 180px 80px 100px;
+
+    animation-name: conteudo;
+    animation-duration: 2s;
+}
+.main h1{
+    font-size: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.main h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 0px;
+
+}
+.main h3{
+    color: rgb(216, 166, 0);
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 4px;
+}
+.main p{
+    color: rgb(245, 245, 220);
+    line-height: 26px;
+    text-align: justify;
+    padding-left: 15px;
+}
+.cvPicture{
+    width: 300px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.caminho{  
+    background-color: rgb(40, 40, 40);
+    padding-left: 5px;
+    margin-left: -5px;
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.caminho li{  
+    display: inline-block;
+}
+
+.caminho a{
+    color: rgb(245, 245, 220);
+
+}
+
+.socialImg{
+    width: 50px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.miniatura{
+    width: 246px;
+    height: 350px;
+    display: inline-block;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.miniatura a{
+    text-decoration: none;
+    color: rgb(245, 245, 220);
+}
+
+.blackBox{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: black;
+    transition: 1s;
+}
+
+.blackBox:hover{
+opacity: 0.9;
+transition: 1s;
+}
+
+.blackBoxText{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.blackBoxText h1{
+    font-size: 100%;
+    margin-top: 0px;
+}
+
+.fotoFilmes{
+    width: 60%;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+.capaFilme{
+    float: left;
+    width: 246px;
+    height: 350px;
+    padding-right: 20px;
+}
+
+.backLink{
+    color: rgb(245, 245, 220);
+}
+
+@keyframes capaAnim1{
+    0%{
+        opacity: 0;
+        transform: translate(-50px,0px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+}
+
+@keyframes capaAnim2{
+    0%{
+        opacity: 0;
+        transform: translate(50px,0px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+}
+
+@keyframes topoAnim{
+    0%{transform: translate(0px,-50px);}
+    /*50%{transform: translate(0,px -100px);}*/
+    100%{transform: translate(0px,0px);}
+}
+
+@keyframes conteudo{
+    0%{transform: translate(-20px,0px);}
+    100%{transform: translate(0px,0px);}
+}
+
+@media (max-width: 1000px)
+{
+    .menuTopo li{
+        display: none;
+    }
+    .menuTopo li.menuIcon{
+        display: inline-block;
+    }
+   
+    .capa div{
+    display: block;
+    height: auto;
+    }
+
+    .fotoPerfil{
+        width: 100%;
+        text-align: center;
+    }
+
+    .fotoPerfil img{
+        margin-top: 0;
+        max-width: 70%;
+
+    }
+    
+    .nomePerfil{
+        vertical-align: top;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nomePerfil h1{
+        margin-top: 30px;
+        font-size: 40px;
+        line-height: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nomePerfil h2{
+        font-size: 30px;
+        line-height: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .main{
+        color: rgb(245, 245, 220);
+        font-size: normal;
+        font-weight: 200;
+    
+        padding: 10px 5% 40px 5%;
+
+        /*overflow-wrap: break-word;
+        word-wrap: break-word;*/
+    }
+
+    .main p{
+        text-align: left;
+        line-height: 30px;
+
+    }
+
+    .caminho li{
+        font-size: 20px;
+    }
+
+    .cvPicture{
+        max-width: 100%;
+        width: 300px;
+        float: none;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .miniatura{
+        max-width: 100%;
+        background-size: auto 100%;
+
+    }
+
+    .blackBox{
+        opacity: 0.9;
+    }
+
+    .menuJs{
+        height: auto;
+    }
+
+    .menuJs ul{
+        height: auto;
+        text-align: center;
+        padding-right: 25%;
+        padding-left: 25%;
+    }
+
+    .menuJs li{
+        display: block;
+        border-bottom: solid rgb(12, 12, 12) 1px;
+        width: 100%;
+        padding: 0;
+       
+    }
+
+
+}
