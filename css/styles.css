@@ -170,7 +170,7 @@ body{
 
 .socialImg{
     width: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     margin-right: 10px;
 }
 
@@ -221,6 +221,8 @@ transition: 1s;
 .blackBoxText h1{
     font-size: 100%;
     margin-top: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .fotoFilmes{
