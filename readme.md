@@ -5,4 +5,8 @@ Este projeto foi desenvolvido a fim de aplicar os conhecimentos em HTML e CSS ad
 
 <b>OBS:</b> Este projeto não é de fato um portfólio meu, uma vez que retato um personagem. O intuito do projeto foi de fato treinar programação em HTML/CSS.
 
-Link para visualização: https://htmlpreview.github.io/?https://raw.githubusercontent.com/Brennin555/MeuPortfolio/main/contato.html
+Estou desenvolvendo uma versão séria, para de fato ser meu portfólio, mas por enquanto está incompleta.
+
+Link para visualização do "portfólio" original: https://htmlpreview.github.io/?https://raw.githubusercontent.com/Brennin555/MeuPortfolio/main/contato.html
+
+Link para visualização do novo portfólio: https://htmlpreview.github.io/?https://raw.githubusercontent.com/Brennin555/MeuPortfolio/main/index-serio.html
