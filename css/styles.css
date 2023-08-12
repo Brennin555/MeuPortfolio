@@ -5,8 +5,24 @@ html, body{
     
 }
 
+.maintenance-message {
+    background-color: rgb(219, 64, 168); /* rosa */
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(251, 213, 255); /* rosa claro */
+}
+
 body{
     background-color: rgb(12, 12, 12);
+    color: whitesmoke;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 26px;
+}
+
+.body2{
+    background-color: rgb(31, 16, 59); /* azul fundo */
     color: whitesmoke;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 26px;
@@ -55,6 +71,49 @@ body{
     cursor : pointer;
 }
 
+.menuTopo2{
+    background-color: rgb(219, 64, 168); /* rosa */
+    color:rgb(65, 9, 117);;
+    height: 50px;
+
+    animation-name: topoAnim;
+    animation-duration: 2s;
+}
+
+.menuTopo2 ul{  
+    padding-left: 0px;
+    margin-top: 0px;
+    text-align: right;
+    list-style: none;
+}
+.menuTopo2 li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.menuTopo2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menuTopo2 a:hover{
+    color:rgb(65, 9, 117);;
+}
+
+.menuTopo2 li.menuIcon{
+    display: none;
+    color: rgb(0, 0, 0);
+}
+
+.menuTopo2 li.menuIcon:hover{
+    color:rgb(65, 9, 117);;
+    cursor : pointer;
+}
+
 
 .capa{
     color: rgb(245, 245, 220);
@@ -68,6 +127,17 @@ body{
     height: 650px;
 }
 
+.capa2{
+    color: rgb(251, 213, 255); /* rosa claro */
+}
+.capa2 span{
+    color:rgb(251, 213, 255); /* rosa claro */
+    display: block;
+}
+.capa2 div{
+    display: inline-block;
+    height: 650px;
+}
 
 .fotoPerfil{
     width: 40%;
@@ -85,6 +155,23 @@ body{
     margin-top: 100px;
 }
 
+.fotoPerfil2{
+    width: 40%;
+    text-align: center;
+
+
+    animation-name: capaAnim1;
+    animation-duration: 2s;
+}
+.fotoPerfil2 img{
+    width: 350px;
+    border: 8px solid;
+    border-radius: 350px;
+    border-color:rgb(219, 64, 168); /* rosa */
+    margin-top: 100px;
+}
+/* background-color: rgb(251, 213, 255); */
+
 .nomePerfil{
     vertical-align: top;
     width: 59%;
@@ -101,6 +188,28 @@ body{
     text-transform: uppercase;
 }
 .nomePerfil h2{
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+.nomePerfil2{
+    vertical-align: top;
+    width: 59%;
+
+    animation-name: capaAnim2;
+    animation-duration: 2s;
+}
+.nomePerfil2 h1{
+    color: rgb(219, 64, 168); /* rosa */
+    font-size: 80px;
+    margin-top: 200px;
+    line-height: 60px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.nomePerfil2 h2{
     font-size: 35px;
     font-weight: 300;
     margin-top: 0px;
@@ -142,6 +251,42 @@ body{
     padding-left: 15px;
 }
 
+.main2{
+    color: rgb(245, 245, 220);
+    font-size: normal;
+    font-weight: 200;
+
+    padding: 80px 180px 80px 100px;
+
+    animation-name: conteudo;
+    animation-duration: 2s;
+}
+.main2 h1{
+    font-size: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.main2 h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 0px;
+
+}
+.main2 h3{
+    color: rgb(219, 64, 168); /* rosa */
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 4px;
+}
+.main2 p{
+    color: rgb(245, 245, 220);
+    line-height: 26px;
+    text-align: justify;
+    padding-left: 15px;
+}
+
 .cvPicture{
     width: 200px;
     float: left;
@@ -165,6 +310,24 @@ body{
 
 .caminho a{
     color: rgb(245, 245, 220);
+
+}
+
+.caminho2{  
+    background-color: rgb(219, 64, 168); /* rosa */
+    padding-left: 5px;
+    margin-left: -5px;
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.caminho2 li{  
+    display: inline-block;
+}
+
+.caminho2 a{
+    color: rgb(251, 213, 255);
 
 }
 
